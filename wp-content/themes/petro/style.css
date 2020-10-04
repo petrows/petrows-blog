@@ -1,0 +1,51 @@
+/*
+ Theme Name:     Petrows
+ Theme URI:      http://petro.ws/
+ Description:    Petro.ws base theme
+ Author:         Petro
+ Author URI:     http://petro.ws/
+ Template:       tungsten
+ Version:        0.1
+*/
+
+@import url("../tungsten/style.css");
+
+#page {
+	max-width: 2048px;
+}
+
+.site-branding {
+	padding: 40px 20px;
+}
+
+.pws_catlist {
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.widget-area a:hover {
+	color: #DD4726;
+}
+
+@media all and (max-width:1024px) {
+	#page {
+		padding: 0px;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.site-content .widget-area {
+		width: 350px;
+	}
+	.site-main {
+		margin: 0 350px 0 0;
+	}
+}

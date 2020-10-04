@@ -1,0 +1,12 @@
+#customize-controls .selected-media-items > img {
+	background: #f1f1f1;
+	border: 1px solid #e7e7e7;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	padding: 4px;
+	vertical-align: top;
+	max-width: 60px;
+	height: auto;
+}

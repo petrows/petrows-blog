@@ -1,0 +1,678 @@
+# Copyright (C) 2017 WP Gurus
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tungsten 1.8.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-02-19 15:41:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: 404.php:25
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:42
+#. translators: %1$s: smiley
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:33 comments.php:54
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:34 comments.php:55
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:35 comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:16 content-single.php:17
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 inc/template-tags.php:122
+msgid "Edit"
+msgstr ""
+
+#: content.php:26
+#. translators: %s: Name of current post
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:82
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:92
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:102
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:112
+msgid "Footer 3"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:52
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Choose Media Items"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Clear"
+msgstr ""
+
+#: inc/extras.php:110
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:259
+msgid "Select a page"
+msgstr ""
+
+#: inc/options-panel.php:94
+msgid "Kanary General"
+msgstr ""
+
+#: inc/options-panel.php:95
+msgid "Kanary Homepage"
+msgstr ""
+
+#: inc/options-panel.php:96
+msgid "Kanary Slider"
+msgstr ""
+
+#: inc/options-panel.php:97
+msgid "Kanary Layout"
+msgstr ""
+
+#: inc/options-panel.php:98
+msgid "Kanary Styling"
+msgstr ""
+
+#: inc/options-panel.php:99
+msgid "Kanary Fonts"
+msgstr ""
+
+#: inc/options-panel.php:100
+msgid "Kanary Social"
+msgstr ""
+
+#: inc/options-panel.php:101
+msgid "Kanary Footer"
+msgstr ""
+
+#: inc/options-panel.php:115
+msgid "Inherit"
+msgstr ""
+
+#: inc/options-panel.php:116
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/options-panel.php:117
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/options-panel.php:118
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/options-panel.php:124
+msgid "Favicon"
+msgstr ""
+
+#: inc/options-panel.php:129
+msgid "Logo URL"
+msgstr ""
+
+#: inc/options-panel.php:134
+msgid "Make HTML tables responsive"
+msgstr ""
+
+#: inc/options-panel.php:142
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/options-panel.php:153
+msgid "Layout"
+msgstr ""
+
+#: inc/options-panel.php:159
+msgid "Single Layout"
+msgstr ""
+
+#: inc/options-panel.php:165
+msgid "Single Post Layout"
+msgstr ""
+
+#: inc/options-panel.php:171
+msgid "Single Page Layout"
+msgstr ""
+
+#: inc/options-panel.php:177
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/options-panel.php:183
+msgid "Category Archive Layout"
+msgstr ""
+
+#: inc/options-panel.php:189
+msgid "Tag Archive Layout"
+msgstr ""
+
+#: inc/options-panel.php:197
+msgid "Show Excerpts"
+msgstr ""
+
+#: inc/options-panel.php:204
+msgid "Disable slider?"
+msgstr ""
+
+#: inc/options-panel.php:209
+msgid "Slider Images"
+msgstr ""
+
+#: inc/options-panel.php:214
+msgid "Transition Style"
+msgstr ""
+
+#: inc/options-panel.php:216
+msgid "Slide"
+msgstr ""
+
+#: inc/options-panel.php:216
+msgid "Fade"
+msgstr ""
+
+#: inc/options-panel.php:216
+msgid "Back Slide"
+msgstr ""
+
+#: inc/options-panel.php:216
+msgid "Go Down"
+msgstr ""
+
+#: inc/options-panel.php:216
+msgid "Fade Up"
+msgstr ""
+
+#: inc/options-panel.php:220
+msgid "Display Pagination"
+msgstr ""
+
+#: inc/options-panel.php:226
+msgid "Auto Play"
+msgstr ""
+
+#: inc/options-panel.php:232
+msgid "Stop On Hover"
+msgstr ""
+
+#: inc/options-panel.php:238
+msgid "Display Navigation"
+msgstr ""
+
+#: inc/options-panel.php:254
+msgid "Background Color"
+msgstr ""
+
+#: inc/options-panel.php:269
+msgid "Background Image"
+msgstr ""
+
+#: inc/options-panel.php:284
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/options-panel.php:286
+msgid "Horizontally & vertically"
+msgstr ""
+
+#: inc/options-panel.php:286
+msgid "Horizontally"
+msgstr ""
+
+#: inc/options-panel.php:286
+msgid "Vertically"
+msgstr ""
+
+#: inc/options-panel.php:300
+msgid "Link Color"
+msgstr ""
+
+#: inc/options-panel.php:315
+msgid "Link Visited Color"
+msgstr ""
+
+#: inc/options-panel.php:330
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/options-panel.php:345
+msgid "Entry Title Link Color"
+msgstr ""
+
+#: inc/options-panel.php:360
+msgid "Entry Title Link Visited Color"
+msgstr ""
+
+#: inc/options-panel.php:375
+msgid "Entry Title Link Hover Color"
+msgstr ""
+
+#: inc/options-panel.php:393
+msgid "Font Size"
+msgstr ""
+
+#: inc/options-panel.php:409
+msgid "Basic Font"
+msgstr ""
+
+#: inc/options-panel.php:425
+msgid "Headings Font"
+msgstr ""
+
+#: inc/options-panel.php:441
+msgid "Site Title Font"
+msgstr ""
+
+#: inc/options-panel.php:457
+msgid "Post Title Font"
+msgstr ""
+
+#: inc/options-panel.php:473
+msgid "Widget Title Font"
+msgstr ""
+
+#: inc/options-panel.php:483
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/options-panel.php:488
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/options-panel.php:493
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/options-panel.php:498
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/options-panel.php:503
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/options-panel.php:508
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/options-panel.php:513
+msgid "Feedburner URL"
+msgstr ""
+
+#: inc/options-panel.php:520
+msgid "Columns"
+msgstr ""
+
+#: inc/options-panel.php:531
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/options-panel.php:537
+msgid "Hide credit link?"
+msgstr ""
+
+#: inc/page-walker.php:23
+msgid "#%d (no title)"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:104 inc/template-tags.php:110
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:161
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:165
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:167
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "WP Theme"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "WordPress Theme"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Theme"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Design"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Free WordPress Theme"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Free Theme"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Designed"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Developed"
+msgstr ""
+
+#: inc/template-tags.php:302
+msgid "WPGurus"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Gurus"
+msgstr ""
+
+#: inc/template-tags.php:302
+msgid "WordPress Gurus"
+msgstr ""
+
+#: inc/template-tags.php:320
+msgid "by"
+msgstr ""
+
+#: inc/template-tags.php:323
+msgid "Powered by %s"
+msgstr ""
+
+#: overrides/crimson-lite.php:57 overrides/emerald.php:50
+#: overrides/limelight.php:58 overrides/phosphor.php:57
+#: overrides/tungsten.php:47
+msgid "Skin"
+msgstr ""
+
+#: overrides/crimson-lite.php:71
+msgid "Home Section Widths"
+msgstr ""
+
+#: overrides/crimson-lite.php:84
+msgid "Left Section Content"
+msgstr ""
+
+#: overrides/crimson-lite.php:90
+msgid "Right Section Content"
+msgstr ""
+
+#: overrides/limelight.php:45
+msgid "Sea Green"
+msgstr ""
+
+#: overrides/limelight.php:46
+msgid "Asbestos"
+msgstr ""
+
+#: overrides/limelight.php:47
+msgid "Belize Blue"
+msgstr ""
+
+#: overrides/limelight.php:48
+msgid "Dark"
+msgstr ""
+
+#: overrides/limelight.php:49
+msgid "Midnight Blue"
+msgstr ""
+
+#: overrides/limelight.php:50
+msgid "Orange"
+msgstr ""
+
+#: overrides/limelight.php:51
+msgid "Pomegranate"
+msgstr ""
+
+#: overrides/limelight.php:52
+msgid "Pumpkin"
+msgstr ""
+
+#: overrides/limelight.php:53
+msgid "Wisteria"
+msgstr ""
+
+#: overrides/phosphor.php:41
+msgid "Emerald Water"
+msgstr ""
+
+#: overrides/phosphor.php:42
+msgid "Lemon Twist"
+msgstr ""
+
+#: overrides/phosphor.php:43
+msgid "Cherry"
+msgstr ""
+
+#: overrides/phosphor.php:44
+msgid "Sunrise"
+msgstr ""
+
+#: overrides/phosphor.php:45
+msgid "Bloody Mary"
+msgstr ""
+
+#: overrides/phosphor.php:46
+msgid "Amethyst"
+msgstr ""
+
+#: overrides/phosphor.php:47
+msgid "Rose Water"
+msgstr ""
+
+#: overrides/phosphor.php:48
+msgid "Aqua Marine"
+msgstr ""
+
+#: overrides/phosphor.php:49
+msgid "Mango Pulp"
+msgstr ""
+
+#: overrides/phosphor.php:50
+msgid "Electric Violet"
+msgstr ""
+
+#: overrides/phosphor.php:51
+msgid "Mojito"
+msgstr ""
+
+#: overrides/phosphor.php:52
+msgid "Virgin America"
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Tungsten"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wpgurus.net/tungsten/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tungsten is a fully responsive WordPress theme with a warm color scheme. It "
+"has two skins, red and blue. You can easily switch between the two using "
+"the back-end control panel. The CP has several other customization options "
+"as well. You can change the sidebar position, add your own logo and "
+"favicon, insert custom CSS, disable the homepage slider and much more!"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpgurus.net/"
+msgstr ""
+
+#: comments.php:26
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:135
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:137
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:139
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:142
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:144
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:146
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:148
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:150
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:152
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:154
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
