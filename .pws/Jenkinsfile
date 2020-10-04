@@ -1,1 +1,15 @@
-
+pipeline {
+    agent { label 'eu-petro-ws' }
+    stages {
+        stage('Deploy') {
+            steps {
+                sh "echo 'Hello world!'"
+            }
+        }
+    }
+    post {
+        cleanup { 
+            deleteDir()
+        }
+    }
+}
