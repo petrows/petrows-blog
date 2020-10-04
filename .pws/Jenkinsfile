@@ -8,14 +8,13 @@ pipeline {
             steps {
                 // Tests ?
                 echo "Preparing"
+                sh "printenv"
             }
         }
         stage('Deploy') {
             when {
-                allOf {
-                    buildingTag()
-                    tag pattern: "pws/deploy"
-                }
+                beforeAgent true
+                expression { return env.TAG_NAME == "pws/deploy" }
             }
             agent { label 'eu-petro-ws' }
             steps {
