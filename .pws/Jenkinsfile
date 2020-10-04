@@ -13,7 +13,7 @@ pipeline {
         stage('Deploy') {
             when {
                 beforeAgent true
-                tag "pws/deploy"
+                tag pattern: "pws/deploy", comparator: "REGEXP"
             }
             agent { label 'eu-petro-ws' }
             steps {
