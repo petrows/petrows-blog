@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+    agent any
     options {
         skipDefaultCheckout()
     }
@@ -8,11 +8,6 @@ pipeline {
             steps {
                 // Tests ?
                 echo "Preparing"
-            }
-            post {
-                cleanup {
-                    deleteDir()
-                }
             }
         }
         stage('Deploy') {
@@ -31,6 +26,11 @@ pipeline {
                     deleteDir()
                 }
             }
+        }
+    }
+    post {
+        cleanup {
+            deleteDir()
         }
     }
 }
