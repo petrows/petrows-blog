@@ -6,6 +6,7 @@ pipeline {
     stages {
         stage('Prepare') {
             steps {
+                // Tests ?
                 echo "Preparing"
             }
             post {
