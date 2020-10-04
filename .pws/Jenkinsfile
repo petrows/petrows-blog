@@ -1,15 +1,35 @@
 pipeline {
-    agent { label 'eu-petro-ws' }
+    agent none
+    options {
+        skipDefaultCheckout()
+    }
     stages {
-        stage('Deploy') {
+        stage('Prepare') {
             steps {
-                sh "echo 'Hello world!'"
+                echo "Preparing"
+            }
+            post {
+                cleanup {
+                    deleteDir()
+                }
             }
         }
-    }
-    post {
-        cleanup { 
-            deleteDir()
+        stage('Deploy') {
+            when {
+                beforeAgent true
+                tag "pws/deploy"
+            }
+            agent { label 'eu-petro-ws' }
+            steps {
+                dir ("/home/www/petro.ws/blog") {
+                    scm checkout
+                }
+            }
+            post {
+                cleanup {
+                    deleteDir()
+                }
+            }
         }
     }
 }
