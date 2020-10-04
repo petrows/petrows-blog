@@ -12,7 +12,6 @@ pipeline {
         }
         stage('Deploy') {
             when {
-                beforeAgent true
                 allOf {
                     buildingTag()
                     tag pattern: "pws/deploy"
