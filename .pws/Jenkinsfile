@@ -8,8 +8,6 @@ pipeline {
             steps {
                 // Tests ?
                 echo "Preparing"
-
-                sh "printenv"
             }
         }
         stage('Deploy') {
