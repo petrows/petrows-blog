@@ -18,7 +18,7 @@ pipeline {
             agent { label 'eu-petro-ws' }
             steps {
                 dir ("/home/www/petro.ws/blog") {
-                    scm checkout
+                    checkout scm
                 }
             }
             post {
