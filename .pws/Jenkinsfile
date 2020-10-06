@@ -1,7 +1,9 @@
 pipeline {
-    agent any
+    agent { label 'eu-petro-ws' }
     options {
         skipDefaultCheckout()
+        disableConcurrentBuilds()
+        timeout(time: 1, unit: 'HOURS')
     }
     stages {
         stage('Prepare') {
@@ -15,9 +17,8 @@ pipeline {
                 beforeAgent true
                 expression { return env.TAG_NAME == "pws/deploy" }
             }
-            agent { label 'eu-petro-ws' }
             steps {
-                dir ("/home/www/petro.ws/blog") {
+                dir ("/home/www/petro.ws/blog/web") {
                     checkout scm
                 }
             }
